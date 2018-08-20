@@ -15,7 +15,7 @@ import com.scp.spring.service.PersonService;
 import net.bytebuddy.asm.Advice.This;
 
 
-@Controller
+@Controller//controller for handling request and responce 
 public class PersonController {
 
 	private PersonService personService;
